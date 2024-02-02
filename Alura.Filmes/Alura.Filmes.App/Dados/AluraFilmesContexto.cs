@@ -16,5 +16,29 @@ namespace Alura.Filmes.App.Dados
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-MIHQT5G;Database=AluraFilmes;user=sa;password=amanda03;Trusted_Connection=true;TrustServerCertificate=True");
         }
+
+        override protected void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Ator>(e =>
+            {
+                e.ToTable("actor");
+
+                e.Property(a => a.Id)
+                .HasColumnName("actor_id");
+
+                e.Property(a => a.PrimeiroNome)
+                    .HasColumnName("first_name")
+                    .HasColumnType("varchar(45)")
+                    .IsRequired();
+
+                e.Property(a => a.UltimoNome)
+                    .HasColumnName("last_name")
+                    .HasColumnType("varchar(45)")
+                    .IsRequired();
+
+                e.Property(a => a.UltimoUpdate).HasColumnName("last_update")
+                    .IsRequired();
+            });
+        }
     }
 }
