@@ -24,3 +24,8 @@
 //Tipos CLR => tipos que são reconhecidos pela CLR
 
 //Shadow properties => propriedades que não existem na classe, mas que existem no banco de dados
+
+//Triggers
+//      => são procedimentos armazenados que são executados automaticamente em resposta a determinados eventos no banco de dados
+//      => são usados para manter a integridade dos dados
+//      => são usados em shadows properties para manter a integridade dos dados

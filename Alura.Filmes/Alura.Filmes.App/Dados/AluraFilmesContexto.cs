@@ -37,7 +37,8 @@ namespace Alura.Filmes.App.Dados
                     .IsRequired();
 
                 e.Property<DateTime>("last_update")
-                    .HasColumnType("datetime");
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("getdate()"); //trigger
             });
         }
     }
