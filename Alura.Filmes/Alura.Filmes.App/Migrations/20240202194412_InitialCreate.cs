@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Alura.Filmes.App.Migrations
 {
-    public partial class AluraFilmes01 : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,7 +15,7 @@ namespace Alura.Filmes.App.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     first_name = table.Column<string>(type: "varchar(45)", nullable: false),
                     last_name = table.Column<string>(type: "varchar(45)", nullable: false),
-                    last_update = table.Column<DateTime>(nullable: false)
+                    last_update = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
                 {

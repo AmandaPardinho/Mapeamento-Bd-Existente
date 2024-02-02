@@ -23,4 +23,4 @@
 
 //Tipos CLR => tipos que são reconhecidos pela CLR
 
-//
+//Shadow properties => propriedades que não existem na classe, mas que existem no banco de dados

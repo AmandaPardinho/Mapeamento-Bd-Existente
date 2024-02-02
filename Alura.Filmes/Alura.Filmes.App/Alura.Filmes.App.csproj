@@ -192,9 +192,13 @@
   <ItemGroup>
     <Compile Include="Comentarios.cs" />
     <Compile Include="Dados\AluraFilmesContexto.cs" />
-    <Compile Include="Migrations\20240202184948_AluraFilmes01.cs" />
-    <Compile Include="Migrations\20240202184948_AluraFilmes01.designer.cs">
-      <DependentUpon>20240202184948_AluraFilmes01.cs</DependentUpon>
+    <Compile Include="Migrations\20240202194412_InitialCreate.cs" />
+    <Compile Include="Migrations\20240202194412_InitialCreate.designer.cs">
+      <DependentUpon>20240202194412_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20240202194836_AluraFilmes01.cs" />
+    <Compile Include="Migrations\20240202194836_AluraFilmes01.designer.cs">
+      <DependentUpon>20240202194836_AluraFilmes01.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AluraFilmesContextoModelSnapshot.cs" />
     <Compile Include="Negocio\Ator.cs" />

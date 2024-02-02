@@ -12,7 +12,6 @@ namespace Alura.Filmes.App.Negocio
 
         public string UltimoNome { get; set; }
 
-        public DateTime UltimoUpdate { get; set; }
         public override string ToString()
         {
             return $"Ator({Id}): {PrimeiroNome} {UltimoNome}";

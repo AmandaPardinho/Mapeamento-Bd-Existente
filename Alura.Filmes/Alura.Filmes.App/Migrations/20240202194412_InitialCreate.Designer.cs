@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Alura.Filmes.App.Migrations
 {
     [DbContext(typeof(AluraFilmesContexto))]
-    [Migration("20240202184948_AluraFilmes01")]
-    partial class AluraFilmes01
+    [Migration("20240202194412_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -39,9 +39,8 @@ namespace Alura.Filmes.App.Migrations
                         .HasColumnName("last_name")
                         .HasColumnType("varchar(45)");
 
-                    b.Property<DateTime>("UltimoUpdate")
-                        .HasColumnName("last_update")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTime>("last_update")
+                        .HasColumnType("datetime");
 
                     b.HasKey("Id");
 
