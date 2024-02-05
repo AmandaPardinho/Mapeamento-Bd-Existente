@@ -40,11 +40,19 @@ namespace Alura.Filmes.App
                 //{
                 //    Console.WriteLine(ator + " - " + contexto.Entry(ator).Property("last_update").CurrentValue);
                 //}
-            foreach(var filme in contexto.Filmes)
+                //foreach(var filme in contexto.Filmes)
+                //{
+                //    Console.WriteLine(filme);
+                //}
+
+                foreach (var item in contexto.Elenco)
                 {
-                    Console.WriteLine(filme);
+                    var entidade = contexto.Entry(item);
+                    var filmId = entidade.Property("film_id").CurrentValue;
+                    var actorId = entidade.Property("actor_id").CurrentValue;
+                    Console.WriteLine($"Filme: {filmId} - Ator: {actorId}");
                 }
-                
+
             }
         }
     }
