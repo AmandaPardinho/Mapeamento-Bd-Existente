@@ -12,7 +12,7 @@ namespace Alura.Filmes.App
         static void Main(string[] args)
         {
             //select * from actor
-            using(var contexto = new AluraFilmesContexto())
+            using (var contexto = new AluraFilmesContexto())
             {
                 contexto.LogSQLToConsole();
 
@@ -28,18 +28,23 @@ namespace Alura.Filmes.App
 
                 //Console.WriteLine(ator);
                 //Console.WriteLine(contexto.Entry(ator).Property("last_update").CurrentValue);
-                
+
                 //contexto.SaveChanges();
 
                 //listar 10 atores que foram modificados recentemente
-                var atores = contexto.Atores
-                    .OrderByDescending(a => EF.Property<DateTime>(a, "last_update"))
-                    .Take(10);
+                //var atores = contexto.Atores
+                //    .OrderByDescending(a => EF.Property<DateTime>(a, "last_update"))
+                //    .Take(10);
 
-                foreach (var ator in atores)
+                //foreach (var ator in atores)
+                //{
+                //    Console.WriteLine(ator + " - " + contexto.Entry(ator).Property("last_update").CurrentValue);
+                //}
+            foreach(var filme in contexto.Filmes)
                 {
-                    Console.WriteLine(ator + " - " + contexto.Entry(ator).Property("last_update").CurrentValue);
+                    Console.WriteLine(filme);
                 }
+                
             }
         }
     }

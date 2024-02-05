@@ -29,3 +29,8 @@
 //      => são procedimentos armazenados que são executados automaticamente em resposta a determinados eventos no banco de dados
 //      => são usados para manter a integridade dos dados
 //      => são usados em shadows properties para manter a integridade dos dados
+
+//Short => tipo primitivo representa um inteiro de 16 bits
+//Configuration
+//      => classe que implementa a interface IEntityTypeConfiguration
+//      => é usada para configurar o mapeamento de uma entidade de forma separada do contexto
