@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Linq;
 using Alura.Filmes.App.Dados;
 using Alura.Filmes.App.Extensions;
 using Alura.Filmes.App.Negocio;
+using Microsoft.EntityFrameworkCore;
 
 namespace Alura.Filmes.App
 {
@@ -19,15 +21,25 @@ namespace Alura.Filmes.App
                 //    Console.WriteLine(ator);
                 //}
 
-                var ator = new Ator();
-                ator.PrimeiroNome = "Chris";
-                ator.UltimoNome = "Evans";
+                //var ator = contexto.Atores.First();
 
                 //contexto.Entry(ator).Property("last_update").CurrentValue = DateTime.Now;
-                contexto.Atores.Add(ator);
-                contexto.SaveChanges();
+                //contexto.Atores.Add(ator);
 
-                Console.WriteLine(ator);
+                //Console.WriteLine(ator);
+                //Console.WriteLine(contexto.Entry(ator).Property("last_update").CurrentValue);
+                
+                //contexto.SaveChanges();
+
+                //listar 10 atores que foram modificados recentemente
+                var atores = contexto.Atores
+                    .OrderByDescending(a => EF.Property<DateTime>(a, "last_update"))
+                    .Take(10);
+
+                foreach (var ator in atores)
+                {
+                    Console.WriteLine(ator + " - " + contexto.Entry(ator).Property("last_update").CurrentValue);
+                }
             }
         }
     }
