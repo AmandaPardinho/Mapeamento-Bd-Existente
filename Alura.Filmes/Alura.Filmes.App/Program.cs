@@ -53,34 +53,38 @@ namespace Alura.Filmes.App
                 //    Console.WriteLine($"Filme: {filmId} - Ator: {actorId}");
                 //}
 
-                var filme = contexto.Filmes
-                    .Include(f => f.Atores)
-                    .ThenInclude(fa => fa.Ator)
-                    .First();
+                //var filme = contexto.Filmes
+                //    .Include(f => f.Atores)
+                //    .ThenInclude(fa => fa.Ator)
+                //    .First();
                 
-                Console.WriteLine(filme);
+                //Console.WriteLine(filme);
 
-                var categoria = contexto.Categorias
-                    .Include(c => c.Filmes)
-                    .ThenInclude(fc => fc.Filme);
+                //var categoria = contexto.Categorias
+                //    .Include(c => c.Filmes)
+                //    .ThenInclude(fc => fc.Filme);
 
-                foreach (var c in categoria)
+                //foreach (var c in categoria)
+                //{
+                //    Console.WriteLine("");
+                //    Console.WriteLine($"Filmes da categoria {c}:");
+                //    foreach (var fc in c.Filmes)
+                //    {
+                //        Console.WriteLine(fc.Filme);
+                //    }
+                //}
+
+                //Console.WriteLine("Elenco: ");
+
+                //foreach (var ator in filme.Atores)
+                //{
+                //    Console.WriteLine(ator.Ator);
+                //}
+
+                foreach(var idioma in contexto.Idiomas)
                 {
-                    Console.WriteLine("");
-                    Console.WriteLine($"Filmes da categoria {c}:");
-                    foreach (var fc in c.Filmes)
-                    {
-                        Console.WriteLine(fc.Filme);
-                    }
+                    Console.WriteLine(idioma);
                 }
-
-                Console.WriteLine("Elenco: ");
-
-                foreach (var ator in filme.Atores)
-                {
-                    Console.WriteLine(ator.Ator);
-                }
-
             }
         }
     }

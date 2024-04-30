@@ -15,7 +15,7 @@ namespace Alura.Filmes.App.Dados
         public DbSet<Filme> Filmes { get; set; }
         public DbSet<FilmeAtor> Elenco { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
-        public IEnumerable<object> Idiomas { get; internal set; }
+        public DbSet<Idioma> Idiomas { get; internal set; }
 
         //public DbSet<FilmeCategoria> Genero { get; set; }
 
