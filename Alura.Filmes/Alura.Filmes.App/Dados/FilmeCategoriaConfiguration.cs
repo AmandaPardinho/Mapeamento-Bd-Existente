@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace Alura.Filmes.App.Dados
 {
-    public class FilmeAtorConfiguration : IEntityTypeConfiguration<FilmeAtor>
+    public class FilmeCategoriaConfiguration : IEntityTypeConfiguration<FilmeCategoria>
     {
-        public void Configure(EntityTypeBuilder<FilmeAtor> builder)
+        public void Configure(EntityTypeBuilder<FilmeCategoria> builder)
         {
-            builder.ToTable("film_actor");
+            builder.ToTable("film_category");
 
-            builder.Property<int>("actor_id")
+            builder.Property<byte>("category_id")
                 .IsRequired();
 
             builder.Property<int>("film_id")
@@ -26,15 +26,15 @@ namespace Alura.Filmes.App.Dados
                 .HasDefaultValueSql("getdate()")
                 .IsRequired();
 
-            builder.HasKey("actor_id", "film_id");
+            builder.HasKey("category_id", "film_id");
 
-            builder.HasOne(fa => fa.Filme)
-                .WithMany(f => f.Atores)
+            builder.HasOne(fc => fc.Filme)
+                .WithMany(f => f.Categorias)
                 .HasForeignKey("film_id");
 
-            builder.HasOne(fa => fa.Ator)
-                .WithMany(a => a.Filmografia)
-                .HasForeignKey("actor_id");
+            builder.HasOne(fc => fc.Categoria)
+                .WithMany(c => c.Filmes)
+                .HasForeignKey("category_id");
         }
     }
 }

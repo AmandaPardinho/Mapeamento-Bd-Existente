@@ -470,6 +470,6 @@ C:\repositorios_pessoais\Mapeamento-Bd-Existente\Alura.Filmes\Alura.Filmes.App\o
 C:\repositorios_pessoais\Mapeamento-Bd-Existente\Alura.Filmes\Alura.Filmes.App\obj\Debug\Alura.Filmes.App.csproj.SuggestedBindingRedirects.cache
 C:\repositorios_pessoais\Mapeamento-Bd-Existente\Alura.Filmes\Alura.Filmes.App\obj\Debug\Alura.Filmes.App.exe.config
 C:\repositorios_pessoais\Mapeamento-Bd-Existente\Alura.Filmes\Alura.Filmes.App\obj\Debug\Alura.Filmes.App.csproj.CoreCompileInputs.cache
-C:\repositorios_pessoais\Mapeamento-Bd-Existente\Alura.Filmes\Alura.Filmes.App\obj\Debug\Alura.Filmes.App.csproj.CopyComplete
 C:\repositorios_pessoais\Mapeamento-Bd-Existente\Alura.Filmes\Alura.Filmes.App\obj\Debug\Alura.Filmes.App.exe
 C:\repositorios_pessoais\Mapeamento-Bd-Existente\Alura.Filmes\Alura.Filmes.App\obj\Debug\Alura.Filmes.App.pdb
+C:\repositorios_pessoais\Mapeamento-Bd-Existente\Alura.Filmes\Alura.Filmes.App\obj\Debug\Alura.Fi.2EAEED26.Up2Date

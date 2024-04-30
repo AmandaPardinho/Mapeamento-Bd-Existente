@@ -45,12 +45,40 @@ namespace Alura.Filmes.App
                 //    Console.WriteLine(filme);
                 //}
 
-                foreach (var item in contexto.Elenco)
+                //foreach (var item in contexto.Elenco)
+                //{
+                //    var entidade = contexto.Entry(item);
+                //    var filmId = entidade.Property("film_id").CurrentValue;
+                //    var actorId = entidade.Property("actor_id").CurrentValue;
+                //    Console.WriteLine($"Filme: {filmId} - Ator: {actorId}");
+                //}
+
+                var filme = contexto.Filmes
+                    .Include(f => f.Atores)
+                    .ThenInclude(fa => fa.Ator)
+                    .First();
+                
+                Console.WriteLine(filme);
+
+                var categoria = contexto.Categorias
+                    .Include(c => c.Filmes)
+                    .ThenInclude(fc => fc.Filme);
+
+                foreach (var c in categoria)
                 {
-                    var entidade = contexto.Entry(item);
-                    var filmId = entidade.Property("film_id").CurrentValue;
-                    var actorId = entidade.Property("actor_id").CurrentValue;
-                    Console.WriteLine($"Filme: {filmId} - Ator: {actorId}");
+                    Console.WriteLine("");
+                    Console.WriteLine($"Filmes da categoria {c}:");
+                    foreach (var fc in c.Filmes)
+                    {
+                        Console.WriteLine(fc.Filme);
+                    }
+                }
+
+                Console.WriteLine("Elenco: ");
+
+                foreach (var ator in filme.Atores)
+                {
+                    Console.WriteLine(ator.Ator);
                 }
 
             }
