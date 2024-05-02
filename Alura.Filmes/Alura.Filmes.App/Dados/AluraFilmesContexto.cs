@@ -35,6 +35,8 @@ namespace Alura.Filmes.App.Dados
             modelBuilder.ApplyConfiguration(new CategoriaConfiguration());
 
             modelBuilder.ApplyConfiguration(new FilmeCategoriaConfiguration());
+            
+            modelBuilder.ApplyConfiguration(new IdiomaConfiguration());
         }
     }
 }

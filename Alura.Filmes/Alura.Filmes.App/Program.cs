@@ -57,7 +57,7 @@ namespace Alura.Filmes.App
                 //    .Include(f => f.Atores)
                 //    .ThenInclude(fa => fa.Ator)
                 //    .First();
-                
+
                 //Console.WriteLine(filme);
 
                 //var categoria = contexto.Categorias
@@ -81,9 +81,39 @@ namespace Alura.Filmes.App
                 //    Console.WriteLine(ator.Ator);
                 //}
 
-                foreach(var idioma in contexto.Idiomas)
+                //foreach(var idioma in contexto.Idiomas)
+                //{
+                //    Console.WriteLine(idioma);
+                //}
+
+                //var idiomas = contexto.Idiomas
+                //    .Include(i => i.FilmesFalados);
+
+                //foreach (var idioma in idiomas)
+                //{
+                //    Console.WriteLine(idioma);
+                //}
+
+                //var filmes = contexto.Filmes
+                //    .Include(f => f.IdiomaFalado);
+
+                //foreach (var filme in filmes)
+                //{
+                //    Console.WriteLine(filme);
+                //    Console.WriteLine(filme.IdiomaFalado);
+                //}
+
+                var idiomas = contexto.Idiomas
+                    .Include(i => i.FilmesFalados);
+
+                foreach (var idioma in idiomas)
                 {
                     Console.WriteLine(idioma);
+                    foreach (var filme in idioma.FilmesFalados)
+                    {
+                        Console.WriteLine(filme);
+                    }
+                    Console.WriteLine("\n");
                 }
             }
         }

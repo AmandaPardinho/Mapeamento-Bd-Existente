@@ -197,6 +197,7 @@
     <Compile Include="Dados\FilmeAtorConfiguration.cs" />
     <Compile Include="Dados\FilmeCategoriaConfiguration.cs" />
     <Compile Include="Dados\FilmeConfiguration.cs" />
+    <Compile Include="Dados\IdiomaConfiguration.cs" />
     <Compile Include="Migrations\20240202194412_InitialCreate.cs" />
     <Compile Include="Migrations\20240202194412_InitialCreate.designer.cs">
       <DependentUpon>20240202194412_InitialCreate.cs</DependentUpon>
