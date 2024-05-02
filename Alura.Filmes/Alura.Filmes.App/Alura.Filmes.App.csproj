@@ -202,13 +202,13 @@
     <Compile Include="Migrations\20240202194412_InitialCreate.designer.cs">
       <DependentUpon>20240202194412_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20240202194836_AluraFilmes01.cs" />
-    <Compile Include="Migrations\20240202194836_AluraFilmes01.designer.cs">
-      <DependentUpon>20240202194836_AluraFilmes01.cs</DependentUpon>
+    <Compile Include="Migrations\20240502204850_DemaisTabelas.cs" />
+    <Compile Include="Migrations\20240502204850_DemaisTabelas.Designer.cs">
+      <DependentUpon>20240502204850_DemaisTabelas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20240202201242_AluraFilmes02.cs" />
-    <Compile Include="Migrations\20240202201242_AluraFilmes02.designer.cs">
-      <DependentUpon>20240202201242_AluraFilmes02.cs</DependentUpon>
+    <Compile Include="Migrations\20240502205054_FilmeCheckConstraint.cs" />
+    <Compile Include="Migrations\20240502205054_FilmeCheckConstraint.Designer.cs">
+      <DependentUpon>20240502205054_FilmeCheckConstraint.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AluraFilmesContextoModelSnapshot.cs" />
     <Compile Include="Negocio\Ator.cs" />

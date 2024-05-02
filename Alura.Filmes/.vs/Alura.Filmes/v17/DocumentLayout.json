@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|c:\\repositorios_pessoais\\mapeamento-bd-existente\\alura.filmes\\alura.filmes.app\\comentarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\comentarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|c:\\repositorios_pessoais\\mapeamento-bd-existente\\alura.filmes\\alura.filmes.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\alura.filmes.app\\dados\\filmeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\dados\\filmeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|c:\\repositorios_pessoais\\mapeamento-bd-existente\\alura.filmes\\alura.filmes.app\\dados\\alurafilmescontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\dados\\alurafilmescontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\alura.filmes.app\\negocio\\idioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\negocio\\idioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|c:\\repositorios_pessoais\\mapeamento-bd-existente\\alura.filmes\\alura.filmes.app\\dados\\filmeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\dados\\filmeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\alura.filmes.app\\negocio\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\negocio\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|c:\\repositorios_pessoais\\mapeamento-bd-existente\\alura.filmes\\alura.filmes.app\\dados\\atorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\dados\\atorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\alura.filmes.app\\negocio\\idioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47443DB8-7227-43FD-BB2B-ADD571D9DF81}|Alura.Filmes.App\\Alura.Filmes.App.csproj|solutionrelative:alura.filmes.app\\negocio\\idioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +38,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Comentarios.cs",
+              "DocumentMoniker": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Comentarios.cs",
+              "RelativeDocumentMoniker": "Alura.Filmes.App\\Comentarios.cs",
+              "ToolTip": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Comentarios.cs",
+              "RelativeToolTip": "Alura.Filmes.App\\Comentarios.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:25:45.927Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AluraFilmesContexto.cs",
+              "DocumentMoniker": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Dados\\AluraFilmesContexto.cs",
+              "RelativeDocumentMoniker": "Alura.Filmes.App\\Dados\\AluraFilmesContexto.cs",
+              "ToolTip": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Dados\\AluraFilmesContexto.cs",
+              "RelativeToolTip": "Alura.Filmes.App\\Dados\\AluraFilmesContexto.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:45:09.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilmeConfiguration.cs",
+              "DocumentMoniker": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Dados\\FilmeConfiguration.cs",
+              "RelativeDocumentMoniker": "Alura.Filmes.App\\Dados\\FilmeConfiguration.cs",
+              "ToolTip": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Dados\\FilmeConfiguration.cs",
+              "RelativeToolTip": "Alura.Filmes.App\\Dados\\FilmeConfiguration.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwDsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:06:34.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AtorConfiguration.cs",
+              "DocumentMoniker": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Dados\\AtorConfiguration.cs",
+              "RelativeDocumentMoniker": "Alura.Filmes.App\\Dados\\AtorConfiguration.cs",
+              "ToolTip": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Dados\\AtorConfiguration.cs",
+              "RelativeToolTip": "Alura.Filmes.App\\Dados\\AtorConfiguration.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:47:40.97Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -66,31 +131,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FilmeConfiguration.cs",
-              "DocumentMoniker": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Dados\\FilmeConfiguration.cs",
-              "RelativeDocumentMoniker": "Alura.Filmes.App\\Dados\\FilmeConfiguration.cs",
-              "ToolTip": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Dados\\FilmeConfiguration.cs",
-              "RelativeToolTip": "Alura.Filmes.App\\Dados\\FilmeConfiguration.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAswCwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T20:07:43.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Filme.cs",
               "DocumentMoniker": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Negocio\\Filme.cs",
               "RelativeDocumentMoniker": "Alura.Filmes.App\\Negocio\\Filme.cs",
               "ToolTip": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Negocio\\Filme.cs",
               "RelativeToolTip": "Alura.Filmes.App\\Negocio\\Filme.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBEAAAAwAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T22:57:24.417Z"
+              "WhenOpened": "2024-04-24T22:57:24.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Idioma.cs",
               "DocumentMoniker": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Negocio\\Idioma.cs",
               "RelativeDocumentMoniker": "Alura.Filmes.App\\Negocio\\Idioma.cs",
@@ -102,13 +156,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Program.cs",
               "RelativeDocumentMoniker": "Alura.Filmes.App\\Program.cs",
               "ToolTip": "C:\\repositorios_pessoais\\Mapeamento-Bd-Existente\\Alura.Filmes\\Alura.Filmes.App\\Program.cs",
               "RelativeToolTip": "Alura.Filmes.App\\Program.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAqwHgAAAABAAAA",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAswIgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T03:13:07.17Z",
               "EditorCaption": ""

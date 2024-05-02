@@ -32,9 +32,16 @@ Triggers
       => são usados em shadows properties para manter a integridade dos dados
 
 Short => tipo primitivo representa um inteiro de 16 bits
+
 Configuration
       => classe que implementa a interface IEntityTypeConfiguration
       => é usada para configurar o mapeamento de uma entidade de forma separada do contexto
+
 Include => método linq que faz o entity entender que precisa realizar um join
+
+Para toda chave estrangeira o Entity criará um índice
+
+O Entity não suporta nativamente restrições do tipo CHECK
+      => para contornar isso, é necessário criar uma migração vazia e adicionar manualmente a restrição a ela
 
 */

@@ -33,7 +33,7 @@ namespace Alura.Filmes.App.Dados
 
             builder.Property(f => f.Duracao)
                 .HasColumnName("length")
-                .HasColumnType("short");
+                .HasColumnType("smallint");
 
             builder.Property<DateTime>("last_update")
                 .HasColumnType("datetime")
@@ -53,6 +53,11 @@ namespace Alura.Filmes.App.Dados
                 .HasOne(f => f.IdiomaOriginal)
                 .WithMany(i => i.FilmesOriginais)
                 .HasForeignKey("original_language_id");
+
+            builder
+                .Property(f => f.Classificação)
+                .HasColumnName("rating")
+                .HasColumnType("varchar(10)");
         }
     }
 }

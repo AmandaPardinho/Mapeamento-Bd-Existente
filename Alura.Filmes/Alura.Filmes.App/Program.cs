@@ -103,18 +103,39 @@ namespace Alura.Filmes.App
                 //    Console.WriteLine(filme.IdiomaFalado);
                 //}
 
-                var idiomas = contexto.Idiomas
-                    .Include(i => i.FilmesFalados);
+                //var idiomas = contexto.Idiomas
+                //    .Include(i => i.FilmesFalados);
 
-                foreach (var idioma in idiomas)
-                {
-                    Console.WriteLine(idioma);
-                    foreach (var filme in idioma.FilmesFalados)
-                    {
-                        Console.WriteLine(filme);
-                    }
-                    Console.WriteLine("\n");
-                }
+                //foreach (var idioma in idiomas)
+                //{
+                //    Console.WriteLine(idioma);
+                //    foreach (var filme in idioma.FilmesFalados)
+                //    {
+                //        Console.WriteLine(filme);
+                //    }
+                //    Console.WriteLine("\n");
+                //}
+
+                //var ator1 = new Ator { PrimeiroNome = "Emma", UltimoNome = "Watson" };
+                //var ator2 = new Ator { PrimeiroNome = "Emma", UltimoNome = "Watson" };
+                //contexto.Atores.AddRange(ator1, ator2);
+                //contexto.SaveChanges();
+
+                //var emmaWatson = contexto.Atores
+                //    .Where(a => a.PrimeiroNome == "Emma" && a.UltimoNome == "Watson");
+                //Console.WriteLine($"Total de atores encontrados: {emmaWatson.Count()}");
+
+                var idioma = new Idioma{Nome = "English"};
+                var filme = new Filme();
+                filme.Titulo = "Senhor dos Anéis";
+                filme.Duracao = 120;
+                filme.AnoLancamento = "2000";
+                filme.Classificação = "Blablabla";
+                filme.IdiomaFalado = idioma;
+                
+
+                contexto.Filmes.Add(filme);
+                contexto.SaveChanges();
             }
         }
     }

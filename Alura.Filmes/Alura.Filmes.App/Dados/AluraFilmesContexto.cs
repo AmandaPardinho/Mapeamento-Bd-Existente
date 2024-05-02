@@ -21,7 +21,7 @@ namespace Alura.Filmes.App.Dados
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-MIHQT5G;Database=AluraFilmes;user=sa;password=amanda03;Trusted_Connection=true;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-MIHQT5G;Database=AluraFilmesTST;user=sa;password=amanda03;Trusted_Connection=true;TrustServerCertificate=True");
         }
 
         override protected void OnModelCreating(ModelBuilder modelBuilder)
